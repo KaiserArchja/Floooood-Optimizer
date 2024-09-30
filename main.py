@@ -6,7 +6,7 @@ import math
 Npop = 100
 iter = 200
 Ne = 5
-pop = [random.uniform(-10000000,0) for i in range(Npop)]
+pop = [random.uniform(-10000000,100000) for i in range(Npop)]
 rand = [random.random() for i in range(Npop)]
 randn = [random.randrange(-1000000000,+1000000000) for i in range(Npop)]
 S = [min(pop) + rand[i]*(max(pop) - min(pop)) for i in range(Npop)]
